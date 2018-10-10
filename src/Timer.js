@@ -18,7 +18,7 @@ this.interval = setInterval(this.clockTick,1000)
 
 
   render() {
-
+// eslint-disable-next-line
     const { time, color, className } = this.state
     return (
       <section className="Timer" style={{background: color}}>
